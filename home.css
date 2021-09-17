@@ -235,7 +235,10 @@ textarea,select{
  .image3{
  	width:100%;
  }
-
+.section3{
+	padding-top:10vh;
+	}
+	
  .container2{
 
  	height:50vh;
@@ -272,7 +275,7 @@ margin-top:5%;
 }
 }
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:450px) {
  .image2{
  	display:none;
  }
