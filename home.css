@@ -1,0 +1,319 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family:VERDANA;
+   
+}
+
+/*======== NAVBAR==========*/
+#navbar{
+	width:100%;
+	padding:10px;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	align-items: center;
+	position:fixed;
+	top:0;
+    background-color:#0066ff;
+
+}
+
+.list{
+	display: flex;
+	
+
+}
+.list li {
+	display: inline-block;
+	margin-right: 30px;
+}
+.list li a{
+	text-decoration: none;
+	color: white;
+}
+.link a{
+	padding-top: 14px;
+	padding-bottom: 10px;
+}
+
+.link a:hover{
+
+	border-bottom: 2px solid white;
+  
+
+}
+
+
+/*========= LANDING CSS=========*/
+.container{
+	width:100%;
+height: auto;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+
+
+}
+.image{
+display: flex;
+
+justify-content:flex-end;
+margin-left: 8%;
+}
+.head-text{
+margin-left: 10%;
+		display: flex;
+		flex-direction: column;
+	
+}
+
+
+
+ .head-text h1{
+
+	font-size: 3rem;
+	margin-bottom:5%;
+}
+.head-text p{
+	font-size: 1.2rem;
+}
+
+
+.button{
+	margin-top: 5%;
+	color:white;
+	background-color: blue;
+	border: none;
+	padding:10px;
+	width:20%;
+	border-radius: 8px;
+
+
+}
+
+/*HOW WE MANAGE OUR TIME*/
+.icon{
+	font-size: 1.4rem;
+	color: white;
+	background-color:  blue;
+	border-radius: 50%;
+	padding: 5px 8px 5px 8px;
+	margin-right:50px;
+
+}
+
+.table{
+	width:60%;
+	display: flex;
+	flex-direction: column;
+	
+	margin: auto;
+}
+.right{
+	margin-left:3%;
+}
+.left{
+	margin-right:5%;
+}
+.card{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 18%;
+}
+
+.image2{
+display: flex;
+
+justify-content:center;
+align-items: center;
+}
+
+h1{
+	font-size:3rem;
+}
+
+.container2{
+	height:80vh;
+}
+
+.container1{
+	height:100vh;
+}
+.section2{
+	height:80vh;
+
+	display: flex;
+	flex-direction: column;
+}
+/*============CARDS DISPLAY=======*/
+
+.section3{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20vh;
+	height: auto;
+}
+.image3{
+	width:50%;
+}
+ .wrapper3{
+	display: flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items: center;
+	margin-top: 10vh;
+}
+.form{
+	padding:3% 10% 3% 10%;
+box-shadow: 0px 1px 11px -3px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 1px 11px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 11px -3px rgba(0,0,0,0.75);
+border-radius: 10px;
+	
+}
+.formwrapper
+{
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+ 
+max-width:50%;
+	
+
+
+}
+.form >.button{
+	width:100%;
+}
+.inputf{
+	margin-top: 4%;
+	
+}
+input{
+margin-top: 2%;
+width:80%;
+padding: 6px;
+border-radius:3px;
+
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid green;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea,select{
+	 width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid green;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.inputf >label{
+	color: #273c75;
+}
+
+
+
+@media only screen and (max-width: 930px) {
+ .image2{
+ 	display:none;
+ }
+
+ .container2{
+
+ 	height:50vh;
+ }
+ h1{
+	font-size:2rem;
+	display: flex;
+	justify-content: center;
+}
+
+.right{
+	padding:10px;
+}
+.left{
+padding: 10px;
+}
+
+.container1{
+margin-top:5%;
+	display: flex;
+	flex-direction: column;
+}
+.image{
+	padding: 10%;
+}
+}
+
+@media only screen and (max-width:400px) {
+ .image2{
+ 	display:none;
+ }
+
+
+.container1{
+
+	display: flex;
+	flex-direction: column;
+}
+.image{
+	padding-left:2%;
+}
+.head-text h1{
+	text-align:start;
+	font-size: 2rem;
+	padding-right:15% !important;
+}
+#navbar{
+	display: flex ;
+	 flex-direction:column;
+}
+#navbar .menu .list{
+	padding: 10px;
+}
+.button{
+	font-size:10px;
+}
+.container2{
+	flex-direction: column;
+	height: auto;
+}
+.table{
+	width:90%;
+	padding: 10px;
+}
+.right{
+	margin: 0;
+
+}
+.left{
+	margin:0;
+}
+.section2 h1{
+	font-size: 1.5rem;
+}
+}
+
+
+footer{
+	margin-top: 5vh;
+	text-align: center;
+	padding: 1%;
+	background-color: black;
+	color: white;
+}
